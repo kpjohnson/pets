@@ -1,0 +1,34 @@
+---
+title: "Using the pets package"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Using the pets package}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+# Background
+
+The `{pets}` package was designed to allow people to express their feelings about pets. At present, the package is rather cat-centric, in that it only contains one function: `cats()`.
+
+# Usage
+
+To use `{pets}`, first load the package and then call the function `cats()` with a logical/boolean argument. For example, 
+
+```{r setup}
+## load pets package
+library(pets)
+
+## if you love cats
+cats(TRUE)
+
+## if you're not a big fan of cats
+cats(FALSE)
+```

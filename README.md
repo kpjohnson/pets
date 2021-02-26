@@ -18,7 +18,7 @@ You can install the development version from
 
 ``` r
 # install.packages("devtools")
-devtools::install_github("mdscheuerell/pets")
+devtools::install_github("kpjohnson/pets")
 ```
 
 ## Example

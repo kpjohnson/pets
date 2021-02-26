@@ -8,12 +8,12 @@ output: github_document
 knitr::opts_chunk$set(
   collapse = TRUE,
   comment = "#>",
-  fig.path = "man/figures/README-",
+  fig.path = "man/figures",
   out.width = "100%"
 )
 ```
 
-# pets
+# pets <img src="man/figures/logo.png" align="right" alt="" width="120" />
 
 <!-- badges: start -->
 <!-- badges: end -->

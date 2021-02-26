@@ -1,7 +1,7 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# pets
+# pets <img src="man/figures/logo.png" align="right" alt="" width="120" />
 
 <!-- badges: start -->
 
@@ -18,7 +18,7 @@ You can install the development version from
 
 ``` r
 # install.packages("devtools")
-devtools::install_github("kpjohnson/pets")
+devtools::install_github("mdscheuerell/pets")
 ```
 
 ## Example
